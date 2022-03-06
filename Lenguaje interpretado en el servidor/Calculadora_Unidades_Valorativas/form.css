@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    olor:#FFD700;
+    font:Bold 1.1em Linotype,sans-serif;
+    
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+}
+
+form{
+     margin:auto;
+    width:398px;
+    text-align: center;
+    padding:20px;
+    border:1px solid #270644;
+    /* Agregando propiedades CSS3 */
+    border-radius:12px;
+    -ms-border-radius:12px;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    -khtml-border-radius:12px;
+    behavior:url(../rounded/border-radius.htc);
+    background:#4E0085;
+    background: -ms-radial-gradient(19% 75% 90deg, #4E0085, #963AD6);
+    background:-moz-linear-gradient(19% 75% 90deg, #4E0085, #963AD6);
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#963AD6), to(#4E0085));
+    /* background:silver url("rounded.svg"); */
+    
+    /* Sombra a los costados de las cajas */
+    box-shadow:0px -5px 300px #270644;
+    -ms-box-shadow:0px -5px 300px #270644;
+    -moz-box-shadow:0px -5px 300px #270644;
+    -webkit-box-shadow:0px -5px 300px #270644;
+
+}
+
+label{
+     color:#FFD700;
+   
+    text-transform:uppercase;
+
+}
+
+input[type=submit]     {
+    background: #FFA500;
+    text-align: center;
+    color: #8B008B;
+    border-top: 2px solid #F5DEB3;
+    border-left: 2px solid #F5DEB3;
+    border-right: 2px solid #BC8F8F;
+    border-bottom: 2px solid #BC8F8F;
+    text-transform:uppercase;
+    font:Bold 1em Linotype,sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color:#FF4500;
+    color:#800080;
+}
+
+input:hover            {
+    -webkit-box-shadow: 0px 0px 4px #000;
+    background: #A33CF0;
+}
+
+.submit               {
+    background:rgb(50,50,120);
+    border:3px outset rgb(60,50,60);
+    bottom:-0.2em;
+    color:Yellow;
+    display:inline;
+    font:Bold 9pt "Century Gothic","Arial Rounded MT Bold",Helvetica,sans-serif;
+    position:relative;
+}
+
+.submit:hover         {
+    background:rgb(90,90,150);
+    color:White;
+}
+
+.echo{
+    color:#FFD700;
+    font:Bold 1.1em Linotype,sans-serif;
+    text-transform:uppercase;
+
+}
