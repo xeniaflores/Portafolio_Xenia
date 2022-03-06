@@ -1,0 +1,90 @@
+* {
+    margin: 10px;
+    padding: 0;
+}
+
+.encabezado{
+	height: 300px;
+	width: fill;
+	padding: 20px;
+	background-image: url(../imagenes/R.jpg);
+	text-align: left;
+
+}
+.subtitulo{
+	color: white;
+	font-family: "segoe UI";
+}
+h1{
+	color: white;
+	font-family: "segoe UI";
+}
+h2{
+	font-family: "segoe UI";
+	color: blue;
+}
+h3{
+	font-family: "segoe UI";
+	background-color: #930A15;
+	color: white;
+}
+h4{
+	color: navy;
+	font-family: "segoe UI";
+	font-size: 22px;
+}
+p{
+	font-family: sans-serif;
+	text-align: justify;
+	font-size: 20px;
+}
+.corto{
+	width: 90%;
+
+}
+.row{
+	display: flex;
+	height: 88%; /*88*/
+	align-items:center;
+}
+.contenedor{
+	justify-items: center;
+	height: 560px;
+	width: fill;
+	background-color: #930A15;
+
+}
+table{
+	background-color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	text-align: center;
+	height: 50%;
+	shape-margin: 10px;
+	position: absolute;
+	border-radius: 10px;
+}
+td{
+	width: 365px;
+	text-align: center;
+
+}
+tr{
+	text-align: center;
+
+}
+.imagen{
+	height: 250px;
+	width: 325px;
+}
+.imagen:hover
+{
+	transform: translateY(-10px);
+}
+footer{
+	font-family: "segoe UI";
+	background-color: black;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}

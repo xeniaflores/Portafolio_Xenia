@@ -1,0 +1,204 @@
+body {
+	
+	
+	width: 100%;
+	height: 100vh;
+	background-image:url(atardecer.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+.contenedor{
+	width: 100%;
+	margin: 0 ;
+	
+}
+.menu{
+	width: 100%;
+	background: black;
+	text-align: center;
+	/*position: fixed;*/
+	background-attachment: fixed;
+
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	display: inline-block;
+	padding: 10px;
+	transition: all .3s ease;
+}
+.menu ul li:hover{
+	transform: scale(1.2);
+	background: orange;
+}
+.selecionado{
+	background: orange;
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+}
+/*AQUI*/
+.row{
+	display: flex;
+	height: auto; /*88*/
+	align-items:center;
+	text-align: center;
+
+}
+.row2{
+	display: flex;
+	height: auto; /*88*/
+	align-items:center;
+	text-align: center;
+
+}
+.col{
+	flex-basis: 50%; /*ESPACIO QUE TOMARA EL TEXTO AL LADO IZQUIERDO, EL PORCENTAJE QUE CUBRIRA*/
+	text-align: center;
+	padding: 20px;
+}
+h1{
+	color: white;
+	font-size: 100px;
+}
+p{
+	color: white;
+	font-size: 120%;
+	text-align: justify;
+	line-height: 130%; /*AQUI  SE DEFINE EL ESPACIO ENTRE LINEAS DE ESTE TEXTO*/ 
+	padding: 20px;
+}
+
+.card1{
+	/*width: 200px;
+	height: 230px;*/
+	width: 50%;
+	height: 65%px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: url(sanvicente.jpg);
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+
+.card2{
+	width: 50%;
+	height: 65%;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	/*margin: 10px 15px;*/
+	margin: 10px 15px;
+	background-image: url(cerroverde.jpg);
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+.card3{
+	width: 50%;
+	height: 65%;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: url(lagunaalegria.jpg);
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+.card4{
+	width: 50%;
+	height: 65%;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image: url(laberintoalbania.jpeg);
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+.card1:hover
+{
+	transform: translateY(-10px);
+}
+.card2:hover
+{
+	transform: translateY(-10px);
+}
+.card3:hover
+{
+	transform: translateY(-10px);
+}
+.card4:hover
+{
+	transform: translateY(-10px);
+}
+h5{
+	color: white;
+	text-align: center;
+	text-shadow: 0 0 5px #999;
+}
+h4{
+	color: black;
+	text-align: justify;
+	text-shadow: 0 0 5px #999;
+	font-size: 100%;
+	padding: 20px;
+}
+h3{
+	color: white;
+	text-align: justify;
+	text-shadow: 0 0 5px #999;
+	font-size: 150%;
+	padding: 20px;
+}
+.imagenlista{
+	width: 85%;
+	height: 85%;
+	border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+   	width: 100%;
+   	margin: 0;
+   	padding: 0;
+}
+.piedepagina{
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	line-height: 25px;
+	padding: 0;
+}
+
+.imainfo{
+	width: 8%;
+	height: 8%;
+	text-align: justify;
+	line-height: 100%;
+}
+
+.fondo{
+    background-color:rgba(250, 299, 218, 0.4);
+    border-radius: 10px;
+    line-height: 100%;
+}
